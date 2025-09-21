@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Title: PHYS20161 – 2nd Assignment: Z0 boson
 
 The function of this python script is to read in and validate data
 gathered from two detectors that measure the cross-section of 
@@ -11,7 +10,6 @@ a minimised chi-squared fit. The script also calculates the reduced chi-squared
 of the fit, as well as producing plots of the data and the fit, the 
 residuals and a contour plot to visualise the uncertainties.
 
-b60879jm (11110928)
 """
 
 import numpy as np
@@ -373,3 +371,4 @@ def main(file_name_1, file_name_2):
     print(f"Reduced Chi Squared: {reduced_chi_squared:.3f}")
 
 main(FILE_NAME_1, FILE_NAME_2)
+
